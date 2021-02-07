@@ -14,7 +14,7 @@ const ArtWall = styled.div`
 const Text = styled.div`
   font-family: "MapoFlowerIsland";
   font-weight: 300;
-  font-size: 16px;
+  font-size: 28px;
   line-height: 1.5;
 `;
 const TextBox = styled.div`

@@ -28,7 +28,8 @@ const SLink = styled(Link)`
   align-items: center;
   justify-content: start;
   margin-left: 20px;
-  font-weight: 500;
+  font-weight: 600;
+  font-size: 20px;
   transition: color 0.5s ease-in-out;
 `;
 
@@ -37,7 +38,6 @@ export default withRouter(({ location: { pathname } }) => (
     <Link to="/">
       <Logo />
     </Link>
-
     <List>
       <Item>
         <SLink to="/" current={pathname === "/"}>
