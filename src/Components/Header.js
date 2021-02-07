@@ -28,8 +28,10 @@ const SLink = styled(Link)`
   align-items: center;
   justify-content: start;
   margin-left: 20px;
-  font-weight: 600;
+  font-family: "MapoAgape";
+  font-weight: 00;
   font-size: 20px;
+  text-transform: uppercase;
   transition: color 0.5s ease-in-out;
 `;
 

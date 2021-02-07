@@ -20,7 +20,12 @@ const globalStyles = createGlobalStyle`
     font-family: 'MapoFlowerIsland';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoFlowerIslandA.woff') format('woff');
     font-weight: normal;
+    font-style: normal;@font-face {
+    font-family: 'MapoAgape';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoAgapeA.woff') format('woff');
+    font-weight: normal;
     font-style: normal;
+}
 }
 
 `;
