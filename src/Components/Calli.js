@@ -11,6 +11,10 @@ const CalliImg = styled.div`
   border-radius: 10px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   margin: 30px;
+  @media only screen and (max-width: 600px) {
+    height: 200px;
+    width: 200px;
+  }
 `;
 
 const Calli = ({ bgImg }) => (

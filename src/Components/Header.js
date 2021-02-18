@@ -33,6 +33,10 @@ const SLink = styled(Link)`
   font-size: 20px;
   text-transform: uppercase;
   transition: color 0.5s ease-in-out;
+  @media only screen and (max-width: 600px) {
+    margin-left: 10px;
+    font-size: 10px;
+  }
 `;
 
 export default withRouter(({ location: { pathname } }) => (

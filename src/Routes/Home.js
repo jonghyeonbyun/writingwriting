@@ -16,10 +16,14 @@ const Text = styled.div`
   font-weight: 300;
   font-size: 28px;
   line-height: 1.5;
+  @media only screen and (max-width: 600px) {
+    font-size: 15px;
+  }
 `;
 const TextBox = styled.div`
   display: flex;
   height: 20vh;
+  margin: 10px;
   flex-direction: column;
   justify-content: center;
   align-items: center;

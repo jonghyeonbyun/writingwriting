@@ -1,8 +1,12 @@
 import styled from "styled-components";
 
 const LogoBox = styled.svg`
-  height: 15vh;
+  height: 13vh;
   min-height: 50px;
+  margin: 10px;
+  @media only screen and (max-width: 600px) {
+    height: 15px;
+  }
 `;
 
 const Logo = () => (

@@ -5,7 +5,7 @@ const Order = styled.iframe`
   margin-top: 30px;
   display: block;
   border: none;
-  height: 1030px;
+  height: 1050px;
   width: 100vw;
   font-family: "MapoFlowerIsland";
 `;
