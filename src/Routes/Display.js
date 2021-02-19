@@ -8,10 +8,10 @@ const Section = styled.section`
   display: flex;
   flex-direction: column;
   width: 100%;
-  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
-  backdrop-filter: blur(1px);
-  background-color: rgba(0, 0, 0, 0.01);
-  border-radius: 10px;
+  box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0.02);
+  border-radius: 30px;
   margin-bottom: 30px;
 `;
 const Title = styled.span`
